@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, HttpException, Param, Patch, Post } from '@nestjs/common';
+import { Body, Controller, Delete, Get, HttpException, Param, Patch, Post, Version } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import mongoose from 'mongoose';
